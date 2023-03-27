@@ -6,7 +6,7 @@ import json
 # Function to get weather data based on city name
 def get_weather_data(city):
     # OpenWeatherMap API URL
-    url = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=<YOUR_API_KEY>&units=metric"
+    url = "http://api.openweathermap.org/data/2.5/weather?q="goldcoast"&appid=<YOUR_API_KEY>&units=metric"
 
     # Make a GET request to the API
     response = requests.get(url)
